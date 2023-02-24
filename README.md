@@ -1,2 +1,1 @@
-# bootstrap-website
-Practice with Bootstrap Framework
+TinDog Starting Files
