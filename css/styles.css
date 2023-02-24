@@ -129,9 +129,6 @@ h6 {
 }
 
 /* Footer Section */
-#footer {
-    text-align: center;
-}
 
 #footer a {
     color: #8f8f8f;
@@ -141,9 +138,14 @@ h6 {
     color: #727272;
 }
 
-@media (max-width: 991px) {
-    #title {
+@media screen and (max-width: 991px) {
+    #title .container-fluid {
         text-align: center;
+        padding: 3% 2% 8%;
+    }
+
+    .h1-heading{
+        font-size: 3rem;
     }
 
     .title-img {
